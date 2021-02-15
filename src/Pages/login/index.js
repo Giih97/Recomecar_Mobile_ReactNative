@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {View, Text, TouchableOpacity, StyleSheet, Image, TextInput, Alert} from 'react-native'
 import Button from '../../components/Button'
 import {StatusBar} from 'expo-status-bar'
+import Footer from '../../components/Footer'
 
 
 
@@ -32,7 +33,7 @@ const Login =(props) => {
            <Text> Esqueci a senha </Text> </TouchableOpacity>
 
     </View>
-      
+      <Footer/>
         
         </View>
     )

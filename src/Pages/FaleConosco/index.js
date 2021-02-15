@@ -2,6 +2,7 @@ import React from 'react'
 import TextCenter from '../../components/TextCenter'
 import Button from '../../components/Button'
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image, StatusBar } from 'react-native';
+import Footer from '../../components/Footer'
 
 const styles = StyleSheet.create({
     container: {
@@ -48,8 +49,6 @@ const FaleConosco = (props) => {
 
         <View style={styles.container}>
             <Button navigation={props.navigation} />
-            
-            <TextCenter text="FaleConosco" />
 
             <StatusBar style="auto" />
 
@@ -71,7 +70,11 @@ const FaleConosco = (props) => {
 
             <TouchableOpacity style={styles.btncadastro} >
                 <Text> Enviar </Text> </TouchableOpacity>
+                <View>
+                    <Footer/>
+                </View>
         </View>
+        
     )
 };
 
