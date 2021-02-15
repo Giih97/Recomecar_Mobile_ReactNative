@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import {View, Text, TouchableOpacity, StyleSheet, Image, TextInput, Alert} from 'react-native'
-import TextCenter from '../../components/TextCenter'
 import Button from '../../components/Button'
 import {StatusBar} from 'expo-status-bar'
 
@@ -33,7 +32,7 @@ const Login =(props) => {
            <Text> Esqueci a senha </Text> </TouchableOpacity>
 
     </View>
-            <TextCenter text="Login" />
+      
         
         </View>
     )

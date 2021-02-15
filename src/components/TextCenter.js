@@ -5,8 +5,8 @@ export const TextCenter = ({text}) => {
     return (
         <div>
             <View style={css.container}>
-                <Text style={css.next}>
-                    
+                <Text style={css.text}>
+                    {text}
                 </Text>
             </View>
             
@@ -22,12 +22,12 @@ const css = StyleSheet.create({
         flex:1,
         justifyContent: 'center',
         alignItens:'center',
-        backgroundColor: '#000',
-        width: "500",
+        backgroundColor: 'rgb(218, 122, 214)',
+        width: "100",
     },
 
     text:{
-        fontSize: 50,
+        fontSize: 30,
         color: '#fff',
     }
 })
