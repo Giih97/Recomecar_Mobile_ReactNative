@@ -14,10 +14,11 @@ export default User;
 
 const styles = StyleSheet.create({
     container: {
+        width: 300,
         flex: 1,
         padding: 10,
         margin: 10,
-        borderRadius: 10,
+        borderRadius: 5,
         backgroundColor: "#ffe76d",
     }
 })

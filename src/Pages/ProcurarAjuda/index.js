@@ -2,6 +2,7 @@ import React from 'react'
 import { View, StyleSheet, Image, Text, FlatList } from 'react-native'
 import Button from '../../components/Button'
 import { StatusBar } from 'expo-status-bar'
+import Footer from '../../components/Footer'
 
 import User from '../../components/User';
 
@@ -63,6 +64,7 @@ const ProcurarAjuda = (props) => {
                     )}
                 />
             </View>
+            <Footer/>
         </View>
     )
 }
