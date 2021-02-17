@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   
     logo:{
       width: 180,
-      height: 180,
+      height: 170,
       borderRadius: 100,
       marginBottom: 10,
       shadowOffset:{  width: 100,  height: 100 },
@@ -70,14 +70,14 @@ const styles = StyleSheet.create({
     },
   
     btncadastro:{
-      width:100,
-      height:50,
+      width:95,
+      height:40,
       backgroundColor:'#ffe76d',
       borderRadius: 8,
       justifyContent: 'center',
       textAlign:'center',
-      marginTop: 10,
-      marginBottom: 10 
+      marginTop: 6,
+      marginBottom: 9 
     }
   });
   
