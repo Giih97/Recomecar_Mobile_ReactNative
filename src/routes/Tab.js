@@ -18,12 +18,12 @@ const Tab = () => {
             inactiveTintColor: 'blue',
             labelStyle: {fontSize: 30},
         }}>
+            <routeTab.Screen name="Login" component={Login} />
             <routeTab.Screen name="Home" component={Home} />
             <routeTab.Screen name="SobreNos" component={SobreNos} />
             <routeTab.Screen name="Gestante" component={Gestante} />
             <routeTab.Screen name="Profissional" component={Profissional} />
             <routeTab.Screen name="ProcurarAjuda" component={ProcurarAjuda} />
-            <routeTab.Screen name="Login" component={Login} />
             <routeTab.Screen name="FaleConosco" component={FaleConosco} />
         </routeTab.Navigator>
 

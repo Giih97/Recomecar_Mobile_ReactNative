@@ -14,12 +14,12 @@ const routeDrawer = createDrawerNavigator()
 const Drawer = () => {
     return (
        <routeDrawer.Navigator initialRouteName="Home">
+           <routeDrawer.Screen name="Login" component={Login} />
            <routeDrawer.Screen name="Home" component={Home} />
            <routeDrawer.Screen name="Sobre Nós" component={SobreNos} />
            <routeDrawer.Screen name="Gestante/Mãe" component={Gestante} />
            <routeDrawer.Screen name="Profissional" component={Profissional} />
            <routeDrawer.Screen name="Procurar Ajuda" component={ProcurarAjuda} />
-           <routeDrawer.Screen name="Login" component={Login} />
            <routeDrawer.Screen name="Fale Conosco" component={FaleConosco} />
        </routeDrawer.Navigator>
     )
